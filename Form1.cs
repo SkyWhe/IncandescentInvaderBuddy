@@ -236,7 +236,7 @@ namespace IncandescentInvaderBuddy
                 mail.Body = msg2;
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("grosslyincandescentwarrior@gmail.com", "Gunther*23");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("grosslyincandescentwarrior@gmail.com", "praisethesun");
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
 

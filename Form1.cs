@@ -148,7 +148,9 @@ namespace IncandescentInvaderBuddy
     public partial class Form1 : Form
     {
 
-        SoundPlayer simpleSound = new SoundPlayer(@"Alarm.wav");
+        SoundPlayer invaded_sound = new SoundPlayer(@"sounds/invaded.wav");
+        SoundPlayer invading_sound = new SoundPlayer(@"sounds/invading.wav");
+        SoundPlayer coop_sound = new SoundPlayer(@"sounds/coop.wav");
         Tesseract ocr = new Tesseract();
 
         public Form1()
@@ -236,7 +238,7 @@ namespace IncandescentInvaderBuddy
                 mail.Body = msg2;
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("grosslyincandescentwarrior@gmail.com", "praisethesun");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("grosslyincandescentwarrior@gmail.com", "Gunther*23");
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
 
@@ -267,17 +269,35 @@ namespace IncandescentInvaderBuddy
                 {
 
                     LCtest = word.Text.ToLower();
+
+                    if (LCtest == "another")
+                    {
+
+                        if (emailcheckbox.Checked)
+                        {
+                            sendWarning("Praise the sun!", "You are being summoned to another world!");
+                        }
+
+                        if (soundcheckbox.Checked)
+                        {
+                            coop_sound.Play();
+                        }
+
+                        break;
+
+                    }
+
                     if (LCtest == "invading")
                     {
 
                         if (emailcheckbox.Checked)
                         {
-                            sendWarning("Praise the sun!", "You are invading another world");
+                            sendWarning("Praise the sun!", "You are invading another world!");
                         }
 
                         if (soundcheckbox.Checked)
                         {
-                            simpleSound.Play();
+                            invading_sound.Play();
                         }
 
                         break;
@@ -289,12 +309,12 @@ namespace IncandescentInvaderBuddy
 
                         if (emailcheckbox.Checked)
                         {
-                            sendWarning("Praise the sun!", "You are invading another world");
+                            sendWarning("Praise the sun!", "You are invading another world!");
                         }
 
                         if (soundcheckbox.Checked)
                         {
-                            simpleSound.Play();
+                            invaded_sound.Play();
                         }
 
                         break;

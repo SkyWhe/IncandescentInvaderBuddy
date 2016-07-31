@@ -1,0 +1,12 @@
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\IncandescentInvaderBuddy.exe.config
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\IncandescentInvaderBuddy.exe
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\IncandescentInvaderBuddy.pdb
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.Form1.resources
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.Properties.Resources.resources
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.csproj.GenerateResource.Cache
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.exe
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.pdb
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\tessnet2_64.dll
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\tessnet2_64.pdb
+C:\Users\Sparky\documents\visual studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\obj\Debug\IncandescentInvaderBuddy.csprojResolveAssemblyReference.cache
+C:\Users\Sparky\Documents\Visual Studio 2015\Projects\IncandescentInvaderBuddy\IncandescentInvaderBuddy\bin\Debug\System.Net.Http.dll

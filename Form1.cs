@@ -281,6 +281,8 @@ namespace IncandescentInvaderBuddy
                         if (soundcheckbox.Checked)
                         {
                             coop_sound.Play();
+                            scanTimer.Enabled = false;
+                            running.Text = "Not Running";
                         }
 
                         break;
@@ -298,6 +300,8 @@ namespace IncandescentInvaderBuddy
                         if (soundcheckbox.Checked)
                         {
                             invading_sound.Play();
+                            scanTimer.Enabled = false;
+                            running.Text = "Not Running";
                         }
 
                         break;
@@ -315,6 +319,8 @@ namespace IncandescentInvaderBuddy
                         if (soundcheckbox.Checked)
                         {
                             invaded_sound.Play();
+                            scanTimer.Enabled = false;
+                            running.Text = "Not Running";
                         }
 
                         break;
@@ -342,7 +348,7 @@ namespace IncandescentInvaderBuddy
         private void runBtn_Click(object sender, EventArgs e)
         {
             scanTimer.Enabled = !scanTimer.Enabled;
-
+            coop_sound.Play();
 
             if (scanTimer.Enabled == true)
             {

@@ -232,13 +232,13 @@ namespace IncandescentInvaderBuddy
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
-                mail.From = new MailAddress("grosslyincandescentwarrior@gmail.com");
+                mail.From = new MailAddress("proxy_email_address");
                 mail.To.Add(emailbox.Text);
                 mail.Subject = msg1;
                 mail.Body = msg2;
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("grosslyincandescentwarrior@gmail.com", "praisethesun");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("proxy_email_address", "password");
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
 

@@ -348,7 +348,6 @@ namespace IncandescentInvaderBuddy
         private void runBtn_Click(object sender, EventArgs e)
         {
             scanTimer.Enabled = !scanTimer.Enabled;
-            coop_sound.Play();
 
             if (scanTimer.Enabled == true)
             {
